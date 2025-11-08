@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    height: 480px;
+    width: 180px;
+    border-radius: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.light {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    opacity: 0.15;
+    transition: opacity 0.3s, box-shadow 0.3s;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: limegreen;
+}
+
+
+.red.active {
+    background-color: red;
+    opacity: 1;
+}
+
+.yellow.active {
+    background-color: yellow;
+    opacity: 1;
+}
+
+.green.active {
+    background-color: green;
+    opacity: 1;
+}

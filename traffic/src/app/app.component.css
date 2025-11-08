@@ -1,0 +1,35 @@
+.outer {
+    background-color: black;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    flex-direction: column;
+}
+
+.light {
+    color: white;
+    width: 140px;
+    /* background-color: aqua; */
+    height: 140px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
